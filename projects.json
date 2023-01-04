@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Flare's CSS textboxes",
+    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/Iconatemp1.gif",
+    "description": "Importable CSS module that creates multiple menus, text-styles and textboxes for use in MSPFA adventures.",
+    "link": "https://mspfa.com/?s=41577&p=1"
+  },
+  {
+    "title": "Watch As I Perform My Own Tracheotomy.",
+    "icon": "https://file.garden/Y5hdfT_qkQx7G08g/Tracheotomy/Chapter1Part1/watchasiperformmyowntracheotomy.png",
+    "description": "A girl dissociates in her apartment and has a generally normal time. <br> <a href='https://twitter.com/Bungyg0rl'>A comic by Juney-Blues</a>",
+    "link": "https://junebugjamboree.neocities.org/tracheotomy/"
+  },
+  {
+    "title": "GIF Stuck",
+    "icon": "https://flaringk.github.io/GifStuck/sylladex/assets/placeholders/temp%20item.png",
+    "description": "A collection of GIF generators, making it easy to make your own Homestuck gifs.",
+    "link": "https://flaringk.github.io/GifStuck/"
+  },
+  {
+    "title": "Text 2 Textbox",
+    "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
+    "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
+    "link": "https://flaringk.github.io/text2textbox/"
+  },
+  {
+    "title": "Classpect Central",
+    "icon": "./icons/flowclass.png",
+    "description": "A website about Classpects from Homestuck! Made using React JS ",
+    "link": "https://flaringk.github.io/classpectcentral/"
+  },
+  {
+    "title": "Gif analyser",
+    "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
+    "description": "Analyse all your favourite GIFS with this built in viewer made for viewing an inspecting timings and positions.",
+    "link": "https://flaringk.github.io/gifinfo/"
+  },
+  {
+    "title": "Pictochum Canvas",
+    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/Personal%20Sites/PictoChum/LogoAx3.png",
+    "description": "",
+    "link": ""
+  },
+  {
+    "title": "UHC: POV Timelines",
+    "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
+    "description": "A port of madman-bob's Homestuck POV Cam Chrome extension to the Unoffical Homstuck Collection.",
+    "link": "https://github.com/FlaringK/UHC-POV-Cam"
+  },
+  {
+    "title": "UHC: Dequirker",
+    "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
+    "description": "A mod for the unoffical homestuck collection, removes quirks on a troll by troll basis.",
+    "link": "https://github.com/FlaringK/dequirk-UHC"
+  },
+  {
+    "title": "UHC: Zoosmell Pooplord",
+    "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
+    "description": "A mod for the unoffical homestuck collection, replaces every text instance of the beta kids names with their inital, sillier ones!",
+    "link": "https://github.com/FlaringK/Zoosmell-Pooplord"
+  }
+]

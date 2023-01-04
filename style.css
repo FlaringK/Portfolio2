@@ -1,0 +1,276 @@
+@font-face {
+	font-family: uthp;
+	src: url(./fonts/ut-hp-font.ttf);
+}
+
+@font-face {
+	font-family: battlename;
+	src: url(./fonts/battle-name.tff);
+}
+
+body { 
+	--colora: #FFD4A350;
+	--colorb: #0D2B45dd;
+
+	--col1: #FFD4A3;
+	--col2: #0D2B45;
+	--col3: #D08159;
+	--col4: #8D697A;
+
+	--border: solid var(--col1) 2.5px;
+
+	color: var(--col1);
+
+	min-height: 200vh; 
+	background-color: var(--col2);
+
+	background-image: linear-gradient(to right, var(--colora) 1px, transparent 0.5px), linear-gradient(to bottom, var(--colora) 1px, transparent 0.5px);
+	background-size: 80px 80px;
+	background-attachment: fixed;
+	animation: bodymove 1200s linear infinite;
+
+	font-family: 'Courier New', Courier, monospace;
+
+	scroll-behavior: smooth;
+	image-rendering: pixelated;
+}
+
+a { color: var(--col3) }
+a:visited { color: var(--col4) }
+
+@keyframes bodymove {
+  from {background-position: 0% 0%;}
+  to {background-position: 200% -100%;}
+}
+
+.content {
+	max-width: 800px;
+	margin: auto;
+}
+
+.break {
+	margin: 4em auto;
+	width: min-content;
+}
+
+.moon {
+	position: fixed;
+	top: 5vh;
+	right: 5vw;
+	z-index: -10;
+}
+
+/* home */
+
+#home {
+	margin-top: 10em;
+}
+
+h1 {
+	font-family: battlename;
+	font-size: 4em;
+}
+
+.window {
+	padding: 1em;
+	background-color: var(--colorb);
+	border: var(--border);
+	margin-bottom: 1em;
+}
+
+.window .header {
+	padding: 0 1em;
+	margin: -1em -1em 1em;
+	border-bottom: var(--border);
+	background-color: var(--col2);
+	font-weight: 600;
+}
+
+.window .header::after {
+	content: "| - | □ | X";
+	float: right;
+	font-weight: 400;
+	/* padding-left: 1em;
+	border-left: solid var(--col1); */
+}
+
+.window p {
+	margin: 0;
+	padding-left: 1em;
+	position: relative;
+}
+
+.window p::before {
+	content: var(--lineNumber);
+	display: block;
+	position: absolute;
+	left: 0;
+	color: var(--col3);
+}
+
+/* webdev */
+
+#webdev .window {
+	padding: 0;
+}
+
+#webdev .header {
+	margin: 0;
+}
+
+.ribbon {
+	display: flex;
+	font-weight: 600;
+	border-bottom: var(--border);
+	
+	background-color: var(--col2);
+}
+
+.ribbon div {
+	padding: 0 1em;
+	margin-bottom: -2.5px;
+}
+
+.ribbon div:first-child {
+	background: var(--col1);
+	color: var(--col2);
+}
+
+.ribbon .active {
+	border-right: var(--border);
+	border-left: var(--border);
+	border-bottom: solid var(--col2) 2.5px;
+}
+
+.ribboninfo {
+	padding: 0.5em 1em;
+	border-bottom: var(--border);
+	
+	background-color: var(--col2);
+}
+
+.filemenu {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.preview {
+	width: 30%;
+
+	padding: 1em;
+	border-left: var(--border);
+
+	overflow-x: hidden;
+}
+
+.previewimg {
+	width: 230px;
+	padding: 1em;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.previewimg img {
+	width: calc(100% - 2em);
+}
+
+.files {
+	width: 60%;
+
+	display: flex;
+	justify-content: left;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 1em 1.5em;
+
+	padding: 1em;
+	text-align: center;
+}
+
+.files .icon {
+	width: 100px;
+	cursor: pointer;
+}
+
+.files .icon .iconimg {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.files .icon img {
+	max-width: 80px;
+	max-height: 80px;
+	margin: 0 auto 0.5em;
+	display: block;
+}
+
+/* nav */
+
+#navigation {
+	position: sticky;
+	max-width: 800px;
+	margin: auto;
+	top: 1em;
+
+	background-image: url(./clouds/cornerCloud.png);
+	background-repeat: no-repeat;
+	background-position: 100% calc(1em + 2px);
+	background-size: 200px;
+}
+
+#navigation a {
+	color: var(--col1)
+}
+
+#navigation img {
+	height: 100px;
+}
+
+#iconset {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+/* Parallax Stuff */
+
+:root {
+  --startpos0: 40;
+  --paraimg0: url(/clouds/myclouds1.png);
+  --startpos1: 60;
+  --paraimg1: url(/clouds/myclouds2.png);
+  --startpos2: 70;
+  --paraimg2: url(/clouds/myclouds3.png);
+}
+
+
+:root {
+	--maxscroll: 600;
+	--horizon: 80;
+	--hscrollspeed: 0.5;
+	--imgWidth: 1500;
+	--finalCol: #D08159;
+}
+
+.parallaxDiv {
+	--startpos: 20;
+	--bgimg: var(--bgimg0);
+	
+	background-image: var(--bgimg), linear-gradient(180deg, transparent 300px, var(--finalCol) 300px);
+	position: fixed;
+  left: 0;
+	top: calc((100 - var(--startpos)) * 1vh - (var(--scroll) / var(--maxscroll)) * (var(--horizon) - var(--startpos)) * 1vh);
+	width: 100vw;
+	height: 1000000px;
+	
+	background-repeat: repeat-x;
+	
+	animation: parascroll calc(var(--startpos) / var(--hscrollspeed) * 1s) linear infinite
+}
+
+@keyframes parascroll {to {background-position-x: calc(var(--imgWidth) * 1px);}}
