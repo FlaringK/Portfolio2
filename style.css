@@ -21,7 +21,6 @@ body {
 
 	color: var(--col1);
 
-	min-height: 200vh; 
 	background-color: var(--col2);
 
 	background-image: linear-gradient(to right, var(--colora) 1px, transparent 0.5px), linear-gradient(to bottom, var(--colora) 1px, transparent 0.5px);
@@ -72,7 +71,6 @@ h1 {
 }
 
 .window {
-	padding: 1em;
 	background-color: var(--colorb);
 	border: var(--border);
 	margin-bottom: 1em;
@@ -80,7 +78,6 @@ h1 {
 
 .window .header {
 	padding: 0 1em;
-	margin: -1em -1em 1em;
 	border-bottom: var(--border);
 	background-color: var(--col2);
 	font-weight: 600;
@@ -94,18 +91,26 @@ h1 {
 	border-left: solid var(--col1); */
 }
 
-.window p {
+.notes {
+	padding: 1em 0;
+}
+
+.notes p {
 	margin: 0;
-	padding-left: 1em;
+	padding: 0 1em 0 2em;
 	position: relative;
 }
 
-.window p::before {
+.notes p::before {
 	content: var(--lineNumber);
 	display: block;
 	position: absolute;
-	left: 0;
+	left: 1em;
 	color: var(--col3);
+}
+
+.notes p:hover {
+	background: var(--col2)
 }
 
 /* webdev */
@@ -140,6 +145,7 @@ h1 {
 	border-right: var(--border);
 	border-left: var(--border);
 	border-bottom: solid var(--col2) 2.5px;
+	background: var(--col2)
 }
 
 .ribboninfo {
@@ -165,7 +171,6 @@ h1 {
 }
 
 .previewimg {
-	width: 230px;
 	padding: 1em;
 	margin: auto;
 	display: flex;
@@ -174,6 +179,7 @@ h1 {
 
 .previewimg img {
 	width: calc(100% - 2em);
+	margin: auto;
 }
 
 .files {
@@ -192,14 +198,27 @@ h1 {
 .files .icon {
 	width: 100px;
 	cursor: pointer;
+	font-size: small;
+}
+
+.files .icon:hover, .files .icon.active:hover {
+	background: var(--col3);
+	outline: solid var(--col1);
+}
+
+.files .icon.active {
+	background: var(--col3);
+	outline: solid var(--col4);
 }
 
 .files .icon .iconimg {
 	width: 80px;
 	height: 80px;
-	margin: auto;
+	margin: 0.5em auto 0;
 	display: flex;
 	align-items: center;
+
+	pointer-events: none;
 }
 
 .files .icon img {
@@ -209,32 +228,31 @@ h1 {
 	display: block;
 }
 
-/* nav */
+/* Art */
 
-#navigation {
-	position: sticky;
-	max-width: 800px;
-	margin: auto;
-	top: 1em;
-
-	background-image: url(./clouds/cornerCloud.png);
-	background-repeat: no-repeat;
-	background-position: 100% calc(1em + 2px);
-	background-size: 200px;
-}
-
-#navigation a {
-	color: var(--col1)
-}
-
-#navigation img {
-	height: 100px;
-}
-
-#iconset {
+.viewer {
 	display: flex;
-	justify-content: space-around;
-	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	height: calc(400px + 2em)
+}
+
+.viewer img {
+	max-width: 90%;
+	max-height: 400px;
+}
+
+.artlist {
+	display: flex;
+	padding: 1em;
+	gap: 1em;
+	border-top: var(--border);
+	overflow-x: auto;
+}
+
+.artlist img {
+	max-height: 5em;
 }
 
 /* Parallax Stuff */
@@ -250,7 +268,7 @@ h1 {
 
 
 :root {
-	--maxscroll: 600;
+	--maxscroll: 800;
 	--horizon: 80;
 	--hscrollspeed: 0.5;
 	--imgWidth: 1500;

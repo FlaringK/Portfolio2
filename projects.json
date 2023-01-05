@@ -1,7 +1,7 @@
 [
   {
     "title": "Flare's CSS textboxes",
-    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/Iconatemp1.gif",
+    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/CSSTxtIcons/IconEB.png",
     "description": "Importable CSS module that creates multiple menus, text-styles and textboxes for use in MSPFA adventures.",
     "link": "https://mspfa.com/?s=41577&p=1"
   },
@@ -18,12 +18,6 @@
     "link": "https://flaringk.github.io/GifStuck/"
   },
   {
-    "title": "Text 2 Textbox",
-    "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
-    "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
-    "link": "https://flaringk.github.io/text2textbox/"
-  },
-  {
     "title": "Classpect Central",
     "icon": "./icons/flowclass.png",
     "description": "A website about Classpects from Homestuck! Made using React JS ",
@@ -38,8 +32,14 @@
   {
     "title": "Pictochum Canvas",
     "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/Personal%20Sites/PictoChum/LogoAx3.png",
-    "description": "",
-    "link": ""
+    "description": "A web canvas that simulates some Japanese handheld that was pretty cool back in the day.",
+    "link": "https://flaringk.github.io/PictoChum-Canvas/"
+  },
+  {
+    "title": "Text 2 Textbox",
+    "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
+    "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
+    "link": "https://flaringk.github.io/text2textbox/"
   },
   {
     "title": "UHC: POV Timelines",
