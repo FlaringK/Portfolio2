@@ -42,16 +42,22 @@
     "link": "https://flaringk.github.io/gifinfo/"
   },
   {
+    "title": "Text 2 Textbox",
+    "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
+    "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
+    "link": "https://flaringk.github.io/text2textbox/"
+  },
+  {
     "title": "Pictochum Canvas",
     "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/Personal%20Sites/PictoChum/LogoAx3.png",
     "description": "A web canvas that simulates some Japanese handheld that was pretty cool back in the day.",
     "link": "https://flaringk.github.io/PictoChum-Canvas/"
   },
   {
-    "title": "Text 2 Textbox",
-    "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
-    "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
-    "link": "https://flaringk.github.io/text2textbox/"
+    "title": "Mintendo DS Simulator",
+    "icon": "https://flaringk.github.io/Mintendo-DS/Sprites/Settings.png",
+    "description": "A simulation of the Nintendo Ds home screen. Made to just explore CSS and JS.",
+    "link": "https://flaringk.github.io/Mintendo-DS/"
   },
   {
     "title": "UHC: POV Timelines",
