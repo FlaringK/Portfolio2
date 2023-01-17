@@ -42,6 +42,12 @@
     "link": "https://flaringk.github.io/gifinfo/"
   },
   {
+    "title": "Wizards 101 Name Generator",
+    "icon": "./icons/w101.jpg",
+    "description": "Generate your own wizard 101 name.",
+    "link": "https://flaringk.github.io/w101-names-gen/"
+  },
+  {
     "title": "Text 2 Textbox",
     "icon": "https://flaringk.github.io/text2textbox/showcase.gif",
     "description": "An AutoHotKey script that converts discord messages into undertale textboxes using Demirramon's textbox API. ",
