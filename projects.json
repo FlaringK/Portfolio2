@@ -24,9 +24,15 @@
     "link": "https://flaringk.github.io/GifStuck/"
   },
   {
+    "title": "Classpect Card Generator",
+    "icon": "./icons/Kblood.png",
+    "description": "Generate your own playing cards based off of homestuck classes and aspects.",
+    "link": "https://flaringk.github.io/classpectcards/"
+  },
+  {
     "title": "Classpect Central",
     "icon": "./icons/flowclass.png",
-    "description": "A website about Classpects from Homestuck! Made using React JS ",
+    "description": "A website about Classpects from Homestuck! Made using React JS.",
     "link": "https://flaringk.github.io/classpectcentral/"
   },
   {
