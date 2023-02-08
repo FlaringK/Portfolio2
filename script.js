@@ -30,6 +30,8 @@ fetch("./projects.json").then(response => response.json()).then(json => loadProj
 const fileMenu = document.getElementById("projectMenu")
 const preview = document.getElementById("projectPreview")
 
+let currentLink = ""
+
 let loadProjects = projects => {
   console.log(projects)
 
@@ -41,11 +43,18 @@ let loadProjects = projects => {
     icon.innerHTML = `<div class="iconimg"> <img src="${data.icon}"> </div> ${data.title}`
 
     icon.onclick = e => {
-      preview.innerHTML = `<a href='${data.link}'><div class="previewimg"> <img src="${data.icon}"> </div> <h2>${data.title}</h2></a> ${data.description}`
+      if (currentLink == data.link) {
+        document.getElementById('projectLink').click()
+      } else {
+        preview.innerHTML = `<a href='${data.link}' id='projectLink' target="_blank"><div class="previewimg"> <img src="${data.icon}"> </div> <h2>${data.title}</h2></a> ${data.description}`
 
-      const icons = document.querySelectorAll("#projectMenu .icon")
-      icons.forEach(i => { i.className = "icon" })
-      e.target.className = "icon active"
+        const icons = document.querySelectorAll("#projectMenu .icon")
+        icons.forEach(i => { i.className = "icon" })
+        e.target.className = "icon active"
+
+        currentLink = data.link
+      }
+
     }
 
     fileMenu.append(icon)
