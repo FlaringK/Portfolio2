@@ -48,6 +48,12 @@
     "link": "https://flaringk.github.io/hs-hexes/"
   },
   {
+    "title": "Spriter's Exporter",
+    "icon": "https://flaringk.github.io/spriters-sheet/assets/mushrooms.png",
+    "description": "Turn spritesheets from spriter's resource into useable transparent sprite sheets!",
+    "link": "https://flaringk.github.io/spriters-sheet/"
+  },
+  {
     "title": "Gif analyser",
     "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
     "description": "Analyse all your favourite GIFS with this built in viewer made for viewing an inspecting timings and positions.",
