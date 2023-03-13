@@ -91,7 +91,7 @@
   },
   {
     "title": "mspfaViewer",
-    "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
+    "icon": "https://raw.githubusercontent.com/FlaringK/mspfaViewer/master/uhc/mspalogo_mspa.png",
     "description": "This script was made to let you host your mspfa or original comic on it's own site.",
     "link": "https://github.com/FlaringK/mspfaViewer"
   },
