@@ -90,16 +90,16 @@
     "link": "https://flaringk.github.io/Mintendo-DS/"
   },
   {
-    "title": "UHC: POV Timelines",
-    "icon": "https://github.com/FlaringK/mspfaViewer/blob/master/uhc/mspalogo_mspa.png?raw=true",
-    "description": "A port of madman-bob's Homestuck POV Cam Chrome extension to the Unoffical Homstuck Collection.",
-    "link": "https://github.com/FlaringK/UHC-POV-Cam"
-  },
-  {
     "title": "mspfaViewer",
     "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
     "description": "This script was made to let you host your mspfa or original comic on it's own site.",
     "link": "https://github.com/FlaringK/mspfaViewer"
+  },
+  {
+    "title": "UHC: POV Timelines",
+    "icon": "https://github.com/Bambosh/unofficial-homestuck-collection/blob/main/public/icon.png?raw=true",
+    "description": "A port of madman-bob's Homestuck POV Cam Chrome extension to the Unoffical Homstuck Collection.",
+    "link": "https://github.com/FlaringK/UHC-POV-Cam"
   },
   {
     "title": "UHC: Dequirker",
