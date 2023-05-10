@@ -36,6 +36,18 @@
     "link": "https://flaringk.github.io/homestuck5plus/"
   },
   {
+    "title": "Quirk Builder",
+    "icon": "https://flaringk.github.io/quirkbuilder/assets/alttrollian.png",
+    "description": "A tool to help generate homestuck quirks. ",
+    "link": "https://flaringk.github.io/quirkbuilder/"
+  },
+  {
+    "title": "Homestuck Hex Codes",
+    "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
+    "description": "Easy to copy accurate Homestuck hex colours. ",
+    "link": "https://flaringk.github.io/hs-hexes/"
+  },
+  {
     "title": "Classpect Card Generator",
     "icon": "./icons/Kblood.png",
     "description": "Generate your own playing cards based off of homestuck classes and aspects.",
@@ -46,12 +58,6 @@
     "icon": "./icons/flowclass.png",
     "description": "A website about Classpects from Homestuck! Made using React JS.",
     "link": "https://flaringk.github.io/classpectcentral/"
-  },
-  {
-    "title": "Homestuck Hex Codes",
-    "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
-    "description": "Easy to copy accurate Homestuck hex colours. ",
-    "link": "https://flaringk.github.io/hs-hexes/"
   },
   {
     "title": "Gdocs to fiction",
