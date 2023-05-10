@@ -31,21 +31,15 @@
   },
   {
     "title": "Homestuck 5 plus",
-    "icon": "https://flaringk.github.io/quirkbuilder/assets/alttrollian.png",
-    "description": "This is a tool to help generate homestuck quirks.",
-    "link": "https://flaringk.github.io/quirkbuilder/"
+    "icon": "https://flaringk.github.io/homestuck5plus/jade2-modified.png",
+    "description": "Homestuck 5+ is a tool to format Homestuck style dialogue. Entering homestuck style dialogue in the left text area will generate formatted homestuck dialogue in the right area.",
+    "link": "https://flaringk.github.io/homestuck5plus/"
   },
   {
-    "title": "Quirk builder",
+    "title": "Classpect Card Generator",
     "icon": "./icons/Kblood.png",
     "description": "Generate your own playing cards based off of homestuck classes and aspects.",
     "link": "https://flaringk.github.io/classpectcards/"
-  },
-  {
-    "title": "Homestuck Hex Codes",
-    "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
-    "description": "Easy to copy accurate Homestuck hex colours. ",
-    "link": "https://flaringk.github.io/hs-hexes/"
   },
   {
     "title": "Classpect Central",
@@ -54,16 +48,16 @@
     "link": "https://flaringk.github.io/classpectcentral/"
   },
   {
+    "title": "Homestuck Hex Codes",
+    "icon": "https://flaringk.github.io/gifinfo/shiticon.png",
+    "description": "Easy to copy accurate Homestuck hex colours. ",
+    "link": "https://flaringk.github.io/hs-hexes/"
+  },
+  {
     "title": "Gdocs to fiction",
     "icon": "https://flaringk.github.io/gdocs-to-fiction/imgs/gdoc-to-fiction.png",
     "description": "Format your google docs for fanfiction websites, with homstuck pesterchum auto formatting.",
     "link": "https://flaringk.github.io/gdocs-to-fiction/"
-  },
-  {
-    "title": "Classpect Card Generator",
-    "icon": "./icons/Kblood.png",
-    "description": "Generate your own playing cards based off of homestuck classes and aspects.",
-    "link": "https://flaringk.github.io/classpectcards/"
   },
   {
     "title": "Spriter's Exporter",
