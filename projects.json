@@ -60,16 +60,22 @@
     "link": "https://flaringk.github.io/classpectcentral/"
   },
   {
-    "title": "Gdocs to fiction",
-    "icon": "https://flaringk.github.io/gdocs-to-fiction/imgs/gdoc-to-fiction.png",
-    "description": "Format your google docs for fanfiction websites, with homstuck pesterchum auto formatting.",
-    "link": "https://flaringk.github.io/gdocs-to-fiction/"
-  },
-  {
     "title": "Spriter's Exporter",
     "icon": "https://flaringk.github.io/spriters-sheet/assets/mushrooms.png",
     "description": "Turn spritesheets from spriter's resource into useable transparent sprite sheets!",
     "link": "https://flaringk.github.io/spriters-sheet/"
+  },
+  {
+    "title": "Better Find and Replace",
+    "icon": "https://flaringk.github.io/betterfindreplace/003-folder.ico",
+    "description": "A tool to make it easy to create and save the text transfroms you do every day",
+    "link": "https://flaringk.github.io/betterfindreplace/"
+  },
+  {
+    "title": "Gdocs to fiction",
+    "icon": "https://flaringk.github.io/gdocs-to-fiction/imgs/gdoc-to-fiction.png",
+    "description": "Format your google docs for fanfiction websites, with homstuck pesterchum auto formatting.",
+    "link": "https://flaringk.github.io/gdocs-to-fiction/"
   },
   {
     "title": "Gif analyser",
