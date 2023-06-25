@@ -36,10 +36,10 @@
     "link": "https://flaringk.github.io/homestuck5plus/"
   },
   {
-    "title": "Quirk Builder",
-    "icon": "https://flaringk.github.io/quirkbuilder/assets/alttrollian.png",
-    "description": "A tool to help generate homestuck quirks. ",
-    "link": "https://flaringk.github.io/quirkbuilder/"
+    "title": "Homestuck Textbox Generator",
+    "icon": "https://flaringk.github.io/textboxy/htg%20icon.png",
+    "description": "Generate your own homestuck textboxes. There isn't much else too it.",
+    "link": "https://flaringk.github.io/textboxy/"
   },
   {
     "title": "Homestuck Hex Codes",
@@ -48,10 +48,10 @@
     "link": "https://flaringk.github.io/hs-hexes/"
   },
   {
-    "title": "Classpect Card Generator",
-    "icon": "./icons/Kblood.png",
-    "description": "Generate your own playing cards based off of homestuck classes and aspects.",
-    "link": "https://flaringk.github.io/classpectcards/"
+    "title": "Quirk Builder",
+    "icon": "https://flaringk.github.io/quirkbuilder/assets/alttrollian.png",
+    "description": "A tool to help generate homestuck quirks. ",
+    "link": "https://flaringk.github.io/quirkbuilder/"
   },
   {
     "title": "Classpect Central",
@@ -76,6 +76,12 @@
     "icon": "https://flaringk.github.io/gdocs-to-fiction/imgs/gdoc-to-fiction.png",
     "description": "Format your google docs for fanfiction websites, with homstuck pesterchum auto formatting.",
     "link": "https://flaringk.github.io/gdocs-to-fiction/"
+  },
+  {
+    "title": "Classpect Card Generator",
+    "icon": "./icons/Kblood.png",
+    "description": "Generate your own playing cards based off of homestuck classes and aspects.",
+    "link": "https://flaringk.github.io/classpectcards/"
   },
   {
     "title": "Gif analyser",
