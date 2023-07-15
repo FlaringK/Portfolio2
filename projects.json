@@ -1,11 +1,5 @@
 [
   {
-    "title": "Flare's CSS textboxes",
-    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/CSSTxtIcons/IconEB.png",
-    "description": "Importable CSS module that creates multiple menus, text-styles and textboxes for use in MSPFA adventures.",
-    "link": "https://mspfa.com/?s=41577&p=1"
-  },
-  {
     "title": "JARI: Grimdorks",
     "icon": "https://grimdorks.net/jariGrimdorks.png",
     "description": "Homestuck fan continuation about a girl way out of her depth <br> <a href='https://twitter.com/Nerd_Zara'>A comic by Zara Nerd</a>",
@@ -18,10 +12,22 @@
     "link": "https://junebugjamboree.neocities.org/tracheotomy/"
   },
   {
+    "title": "SAHCon",
+    "icon": "./icons/sahcon.png",
+    "description": "The landing page for the Stuck At Home Convention, a virtual homestuck convention held in VR and across the internet.",
+    "link": "https://sahcon.com/"
+  },
+  {
     "title": "Hades: MEGIDO",
     "icon": "./icons/Time3D.png",
     "description": "A crossover mod for SGG's Hades, featuring characters from Homestuck.",
     "link": "https://github.com/EtchJetty/MEGIDOBeta"
+  },
+  {
+    "title": "Flare's CSS textboxes",
+    "icon": "https://file.garden/X1htvgJ0DEp_tp-Z/CSSTxtIcons/IconEB.png",
+    "description": "Importable CSS module that creates multiple menus, text-styles and textboxes for use in MSPFA adventures.",
+    "link": "https://mspfa.com/?s=41577&p=1"
   },
   {
     "title": "GIF Stuck",
